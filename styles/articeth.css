@@ -83,3 +83,39 @@ nav li a{
         flex-direction: column;
     }
 }
+
+
+/* main styles */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* futer section */
+.teams-containeer{
+    display: flex;
+    align-items: center;
+}
+.teams-img-container{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 1.5rem;
+}
+.teams-contant{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.teams-title{
+    font-size: 2.8rem;
+}
+.teams-title .quick-list{
+    color: rgb(114, 114, 114);
+    font-weight: 500px;
+}
+.teams-title .of-our{
+    color: rgb(19, 19, 19);
+    font-weight: 700;
+}
+.teams-title .features{
+    color: rgb(255, 144, 14);
+    font-weight: 700;
+}
